@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<head>
+  
+<title>Abroad With Love.</title>
+
+<meta name= "viewport" content= "width=device-width, initial-scale=1">
+<link rel= "stylesheet" type= "text/css" href= "food.css">
+<meta charset= "utf-8">
+
+</head>
+
+<body>
+
+<div id= "navbar">
+  <img id= "logo" src= "images\logo.jpg" alt= "Logo" width= "14%" height= "100%">
+      <h1 id= "sitename">Abroad With Love.</h1>
+              <select onchange="la(this.value)">
+                  <option value= "index.html">Home</option>
+                  <option value= "clothing.html">Clothing</option>
+                  <option selected= "food.html">Food</option>
+                  <option value= "contact.html" >Contact</option>
+              </select>
+              
+  <script>
+          function la(src) {
+                            window.location = src;
+                           }
+  </script>
+</div>
+
+<img id= "weddingfood" src= "images/food2.jpg" alt= "A Chief Serving A Dish" width= "99.5%">
+
+<div id= "column1">
+  <p class= "content">- What are my choices? -</p>
+  <p class= "content">Our menu of food is endless consisting of dishes all around the globe so you can have a more cultural wedding. We never serve the same dish twice! </p>
+  <p class= "content">Thanks to our partnerships around the globe, our customers get a wide varity of foods which are made with fanatastic quality.</p>
+  <p class= "content">Create a one-on-one appointment with our chiefs to guarantee the food you need and the exact way you want it to be.</p>
+</div>
+
+<div id= "column2">
+  <p class= "content">- Allergies and Preferences. -</p>
+  <p>
+    <form id= "checkbox" action="http://www.example.com/profile.php">
+      <p>Please Tick Box For Any Allergies: </p>
+      
+      <input type= "checkbox" name= "allergy" value= "" vertical-align/>Eggs
+      
+      <input type= "checkbox" name= "allergy" value= "" class= "checkboxes"/>Milk
+      
+      <input type= "checkbox" name= "allergy" value= "" class= "checkboxes"/>Peanuts 
+      
+      <input type= "checkbox" name= "allergy" value= "" class= "checkboxes"/>Soy
+      
+      <input type= "checkbox" name= "allergy" value= "" class= "checkboxes"/>Wheat
+      
+      <input type= "checkbox" name= "allergy" value= "" class= "checkboxes"/>Tree Nuts
+    </form>
+  </p>
+  
+  <p>
+      Other Alergies or Preferences:
+      
+      <textarea name= "allergies" rows= "8" cols= "60" maxlength= "400" placeholder= "Enter Other Allergies or Preferences Here.">
+      </textarea>
+  </p>
+</div>
+
+<div id= "column3">
+  <p class= "content">- Food -</p>
+  <p class= "content">What to organise food for your special day? Well, it couldn't be any easier! Create an account and enter the required details, and organise a meeting with one of our cheifs closest to you.</p>
+  <p class= "content">Yes, it really is that easy!? We couldn't imagine anythng worse than being unorganised on your special day which is why you tell us what we want and we will do our upmost to give you exactly want you want.
+  <p class= "content"><a href= "contact.html"> Want to create an account? </a>
+</div>
+
+<div id= "footer">
+  <footer>
+          <p><span>&copy Abroad With Love.</span></p>
+          <p>Contact Us -</p>
+          <p>Telephone: 021-475-5566</p>
+          <p>Email: <span id="email">AbroadWithLove@example.ie</span></p>
+  </footer>
+</div>
+
+</body>

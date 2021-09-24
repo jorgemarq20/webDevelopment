@@ -1,0 +1,107 @@
+
+h1 {
+  text-align: center;
+  background-color: #128F40;
+  color: #FFF;
+  font-family: arial, helvetica, sans-serif;
+}
+
+#oldkenmareroad {
+  margin-left: 22%;
+}
+
+#banner2 {
+  margin-left: 24%;
+}
+
+img {
+  margin-left: 11%;
+  border: 3px solid black;
+}
+
+#top {
+        margin-left: 47%;
+        padding: .4em .2em;
+        background-color: rgb( 225, 225, 225, 0.5);
+        color: #FFF;
+        text-decoration: none;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-bottom: 1px solid #717171;
+        border-right: 1px solid #717171;
+}
+
+a {
+  text-decoration: none;
+}
+
+#pages {
+  text-align: center;
+  margin-left: 550px;
+  margin-right: 530px;
+  border: 2px solid black;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+#links {
+  text-align: center;
+  width: 600px;
+}
+
+#links {
+  margin: 2em 4em 2em 4em;
+  padding: 1em 1em 40px 1em;
+  margin-left: auto 0;
+  margin-right: auto 0;
+  background-color: rgb( 225, 225, 225, 0.5);
+  letter-spacing: 1px;
+}
+
+h2 {
+  text-align: left;
+  background-color: #128F40;
+  color: #FFF;
+  font-family: arial, helvetica, sans-serif;
+}
+
+body {
+  background-image: url(images/Killarneypark.jpg);
+  background-size: cover;
+  font-family: arial, helvetica, sans-serif;
+  
+  }
+
+#facts {
+  text-align: center;
+}
+
+#links {
+  margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	float: none;
+}
+
+#paragraph {
+  margin: 2em 4em 2em 4em;
+  padding: 1em 1em 40px 1em;
+  margin-left: auto 0;
+  margin-right: auto 0;
+  background-color: rgb( 225, 225, 225, 0.5);
+  letter-spacing: 1px;
+  border: 2px solid black;
+}
+
+#information {
+  background: 
+            url(oldroad.png) 75% 30% no-repeat,
+            url(images/Kenmare.jpg) 98% 30% no-repeat;
+  background-size: 275px 183px;
+  background-color: rgb( 225, 225, 225, 0.5);
+  border: 2px solid black;
+}
+
+

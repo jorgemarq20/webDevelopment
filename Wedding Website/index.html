@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+<head>
+  
+<title>Abroad With Love.</title>
+
+<meta name= "viewport" content= "width=device-width, initial-scale=1">
+<link rel= "stylesheet" type= "text/css" href= "index.css">
+<meta charset= "utf-8">
+
+</head>
+
+<body>
+
+<div id= "navbar">
+  <img id= "logo" src= "images\logo.jpg" alt= "Logo" width= "14%" height= "100%">
+      <h1 id= "sitename">Abroad With Love.</h1>
+              <select onchange="la(this.value)">
+                  <option selected= "index.html">Home</option>
+                  <option value= "clothing.html">Clothing</option>
+                  <option value= "food.html">Food</option>
+                  <option value= "contact.html" >Contact</option>
+              </select>
+              
+  <script>
+          function la(src) {
+                            window.location = src;
+                           }
+  </script>
+</div>
+
+<img id= "couple" src= "images/couple.jpg" alt= "Couple Holding Hands" width= "48.9%">
+
+<div id= "column2">
+  <p class= "content">- Welcome to <span>Abroad With Love.</span> -</p>
+  <p class= "content">Here, we value the precious moments of love and believe everyone should be able to experience these moments with their loved ones.</p>
+  <p class= "content">No matter what culture, race or gender - We have a dream wedding for everyone and have teamed up with other wedding associations to ensure the perfect moments you and your spouse deserve.</p>
+</div>
+
+<div id= "column1">
+  <p class= "content">- What services do we offer? -</p>
+  <p class= "content">We have partnered up with some of largest wedding organisations around the world to ensure that there is a wedding for you, no matter where. </p>
+  <p class= "content"><span>Abroad With Love.</span> specialise's in cultural and tradisional weddings. Need certain tradisional wedding dishes? Need tradisional wedding clothes? No problem, as we have wedding planners around the world - waiting for you.</p>
+</div>
+
+<div id= "column3">
+  <p>Account Creation:</p>
+  <p> <input id= "submit" type= "submit" value= "Submit"></p>
+      <form id= "form">
+            Name: <input type= "text" name= "customerName" id= "name">
+            <br>
+            Surname: <input type= "text" name= "customerSurname" id= "surname">
+            <br>
+            Email: <input type= "text" name= "customerEmail" id= "customerEmail">
+            <br>
+            Telephone: <input type= "text" name= "customerTelephone" id= "number">
+      </form>      
+</div>
+
+<img id= "food" src= "images/food.jpg" alt= "Picture Of Japanese Foods" width= "48.5%">
+
+<div id= "footer">
+  <footer>
+          <p><span>&copy Abroad With Love.</span></p>
+          <p>Contact Us -</p>
+          <p>Telephone: 021-475-5566</p>
+          <p>Email: <span id="email">AbroadWithLove@example.ie</span></p>
+  </footer>
+</div>
+
+</body>

@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+
+<head>
+  
+<title>Abroad With Love.</title>
+
+<meta name= "viewport" content= "width=device-width, initial-scale=1">
+<link rel= "stylesheet" type= "text/css" href= "contact.css">
+<meta charset= "utf-8">
+
+</head>
+
+<body>
+
+<div id= "navbar">
+  <img id= "logo" src= "images\logo.jpg" alt= "Logo" width= "14%" height= "100%">
+      <h1 id= "sitename">Abroad With Love.</h1>
+              <select onchange="la(this.value)">
+                  <option value= "index.html">Home</option>
+                  <option value= "clothing.html">Clothing</option>
+                  <option value= "food.html">Food</option>
+                  <option selected= "contact.html" >Contact</option>
+              </select>
+              
+  <script>
+          function la(src) {
+                            window.location = src;
+                           }
+  </script>
+</div>
+
+<div id= "column1">
+  <p class= "content">- Information -</p>
+  <p class= "content">Here at <span>Abroad With Love</span>, we specialise in cultural and tradisional weddings. We believe where ever you are in the world, you should get the best wedding you deserve.</p>
+  <p class= "content">No one should be nervous about preparations on they're most valuable day of they're life, which is why we dedicate our work to provide the best services and preferences you want. </p>
+  <p class= "content">Create an account and organise meetings with our proffessionals around the globe. Its as easy as that! Once registered, you have multiple recommendations on wedding plans, for all those who are not yet decided on what wedding they want. </p>
+</div>
+
+<div id= "column2">
+  <p class= "content">- Account Creation -</p>
+ <!-- <p><input id= "submit" type= "submit" value= "Submit"></p> -->
+      <form id= "form">
+            Name: <input type= "text" name= "customerName" id= "name">
+            <br>
+            Surname: <input type= "text" name= "customerSurname" id= "surname">
+            <br>
+            Email: <input type= "text" name= "customerEmail" id= "customerEmail">
+            <br>
+            Telephone: <input type= "text" name= "customerTelephone" id= "number">
+      </form>   
+</div>
+
+<textarea name= "userbio" rows= "20" cols= "60" maxlength= "400" placeholder= "Tell us your dream wedding!"></textarea>  
+
+<div id= "footer">
+  <footer>
+          <p><span>&copy Abroad With Love.</span></p>
+          <p>Contact Us -</p>
+          <p>Telephone: 021-475-5566</p>
+          <p>Email: <span id="email">AbroadWithLove@example.ie</span></p>
+  </footer>
+</div>
+
+</body>

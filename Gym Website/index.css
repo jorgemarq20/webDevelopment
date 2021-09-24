@@ -1,0 +1,103 @@
+/*This is used to style the navbar at the top of the website*/
+#navbar {
+        background-color: #333;
+        overflow: hidden;
+        padding: 1em 1em 1em 1em;
+        }
+    
+/*This is used to style the modivational quote in the navbar*/
+#navbar p#modivation {
+                      margin-left: 55%;
+                      letter-spacing: .2em;
+                      color: white;
+                      font-family: georgia;
+                      
+}
+     
+/*This is used to style the links in the navbar*/     
+#navbar a {
+          text-align: center;
+          float: left;
+          color: black;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 15px;
+          }
+          
+/*This is used to give more style to the links in the navbar*/    
+div a {
+      padding: .2em .2em .2em .2em;
+      background-color: #FFF;
+      text-decoration: none;
+      color: black;
+      border: solid black .1em;
+      border-radius: 10%;
+      font-family: georgia;
+      }
+
+/*This gives effect to the links when you hover over then*/
+#navbar a:hover {
+                background-color: #DDD;
+                color: black;
+                }
+
+/*This effects only one of the links in the navbar letting the user know what page their on*/
+#navbar a#home {
+                background-color: #4CAF50;
+                color: white;
+                }
+
+/*This is used to style the main header on each page*/
+#title { 
+        font-family: georgia;
+        opacity: 70%;
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 20%;
+        margin-right: 20%;
+        letter-spacing: .2em;
+        background-color: #FFF;
+        border: solid black .1em;
+        border-radius: 15%;
+       } 
+  
+/*This is used to add a cover background image and font family*/
+body {
+      background-image: url(images/membership.jpg);
+      background-size: cover;
+      font-family: arial;
+     } 
+
+/*This is used to style the images in the center of each page*/
+img {
+    float: left;
+    display: block;
+    border: solid black .1em;
+    margin-top: 2%;
+    position: relative;
+    }  
+
+/*This styles the contents on the right of the images*/
+#description {
+               margin-left: 45%;
+               opacity: 85%;
+               margin-top: 27px;
+               padding: .5em .5em 5em .5em;
+               letter-spacing: .1em;
+               font-family: georgia;
+               background-color: white;
+               text-align: center
+              }    
+
+/*This styles the footer at the bottom of the page*/
+footer {
+        text-align: right;
+        padding: 1px;
+        background-color: #333;
+        color: white;
+        display: block;
+        position:absolute;
+        bottom:0;
+        width: 99%;
+      }
+    
